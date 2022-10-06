@@ -2,7 +2,7 @@ seed: 1
 
 data:
   data_dir: data
-  num_classes: 12   # 2, 12 or 13
+  num_classes: 2   # 2, 12 or 13
   downsample: true
 
   spectrogram:
