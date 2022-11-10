@@ -38,7 +38,7 @@ stages:
       md5: 60b9e6ab5bcf9e847d9a91489c9a2106
       size: 877
     - path: src/soundscape
-      md5: 0a4bf0dfc07f4d53fbdb0e8f3856db29.dir
+      md5: a25814652f9e4cae07f71766b612afe0.dir
       size: 102512
       nfiles: 34
     params:
@@ -71,7 +71,7 @@ stages:
           - 0.225
         model:
           name: resnet_50
-          weights: imagenet
+          weights: rand
         seed: 1
         train:
           num_epochs: 100
@@ -82,13 +82,13 @@ stages:
           optimizing_metric: +eval_balanced_accuracy
     outs:
     - path: metrics.json
-      md5: 513923ca821affcb27501f6101d58fca
-      size: 195
+      md5: aa57af3907d1309f94ebe5b329b497a9
+      size: 194
     - path: models
-      md5: b3c2c40767476a6962966aa519a38abf.dir
-      size: 94279393
+      md5: 5ed97b18e4657b63470c8d54b22f44d5.dir
+      size: 94288382
       nfiles: 1
     - path: plots
-      md5: 7a2ef41a032e2445bec1454684b21235.dir
-      size: 2882585
+      md5: a7995eb04cac6f1c5228ca84f5784d2a.dir
+      size: 2870284
       nfiles: 111

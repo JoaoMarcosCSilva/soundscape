@@ -28,7 +28,7 @@ data:
 
 model:
   name: resnet_50
-  weights: 'imagenet'
+  weights: 'rand'
 
 train:
   num_epochs: 100
